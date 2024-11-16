@@ -1,0 +1,27 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "A project with Jest and nyc",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=text --reporter=html jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "nyc": "^15.0.0"
+  },
+  "nyc": {
+    "reporter": [
+      "text",
+      "html"
+    ],
+    "all": true
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/setupTests.js"
+    ],
+    "testEnvironment": "jsdom"
+  }
+}

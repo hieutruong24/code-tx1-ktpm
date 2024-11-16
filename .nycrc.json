@@ -1,0 +1,10 @@
+{
+  "all": true,
+  "reporter": [ "text", "html" ],
+  "include": [ "src/admin.js" ],
+  "check-coverage": true,
+  "statements": 100,
+  "branches": 100,
+  "functions": 100,
+  "lines": 100
+}

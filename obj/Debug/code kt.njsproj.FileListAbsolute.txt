@@ -1,0 +1,3 @@
+C:\Users\pc\OneDrive\Desktop\Code KTPM\code kt\obj\Debug\code kt.njsproj.AssemblyReference.cache
+C:\Users\pc\OneDrive\Desktop\Code KTPM\code kt\obj\Debug\code kt.njsproj.CoreCompileInputs.cache
+C:\Users\pc\OneDrive\Desktop\Code KTPM\code kt\bin\Microsoft.NodejsTools.WebRole.dll
